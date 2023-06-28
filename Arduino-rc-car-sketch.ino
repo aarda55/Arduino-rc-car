@@ -140,7 +140,7 @@ void writeSpeed(float value) {
   //Move forward
   mappedPwmSignal = mapToPwmSignal(intValue, noMovement, maxForward);
   int distanceToNextObject = (int) getDistanceToNextObject();
-  if(distanceToNextObject < speedLimitationDistance) {
+  if(distanceToNextObject < speedLimitationDistance && 0.1 < distanceToNextObject) {
     //limit speed when an object is oin front depending on the distance
     int limitedMaxSpeed = map(distanceToNextObject, minDistanceToObject, speedLimitationDistance, minPwmSignal, maxPwmSignalWithObjectInFront);
     limitedMaxSpeed = max(limitedMaxSpeed, 0);
