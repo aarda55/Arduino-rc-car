@@ -3,7 +3,7 @@ This repository contains the code for a project that was used in the building of
 
 --------------------------------------------------------------------------------------------------
 
-Objective of Project:
+# Objective of Project:
 
 This is the software for a simple arduino rc-car with a ultrasound sensor that stops the car if the distance passes a custom set threshold.
 
@@ -13,13 +13,13 @@ This is the software for a simple arduino rc-car with a ultrasound sensor that s
 
 --------------------------------------------------------------------------------------------------
 
-Instructions for electrical circuit:
+# Instructions for electrical circuit:
 
 ![Scan2023-07-28_134116-1](https://github.com/aarda55/Arduino-rc-car/assets/79632956/7777ecda-6ec6-4bdf-ab2e-e6f1d3c20f25)
 
 --------------------------------------------------------------------------------------------------
 
-Use of assisting software:
+# Use of assisting software:
 
 ![arduino_logo_1200x630-01](https://github.com/aarda55/Arduino-rc-car/assets/79632956/8c31ed0a-d9e6-4c82-9b60-86a9dec0a3d9)
 
@@ -27,11 +27,12 @@ Use of assisting software:
 
 --------------------------------------------------------------------------------------------------
 
-How to drive:
+# How to drive:
 
   1. Setting up: Uploading the Arduino-rc-car-sketch.ino to the arduino.
 
-  2. Calibrating controller: Turning the controller on and checking signals that are given.
+  2. Calibrating controller: Turning the controller on and checking signals that are given through the Controller-Calibrator.ino file. (only Arduino, Controller &&     
+     receiver are needed!)
 
   3. Rebuilding the whole circuit
 
