@@ -1,5 +1,5 @@
 # Arduino-rc-car
-This repository contains the code for a project that uses an arduino to build a rc car from scratch.
+This repository contains the code for a project that was used in the building of an arduino powered rc-car from scratch.
 
 --------------------------------------------------------------------------------------------------
 
