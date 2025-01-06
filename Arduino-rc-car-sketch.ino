@@ -1,4 +1,4 @@
-const int tolerance = 10;       //tolaranze value for inputs
+const int tolerance = 10;       //tolarance value for inputs
 const int minPwmSignal = 0;    //min PWM-signal strength
 const int maxPwmSignal = 255;  //max PWM-signal strength
 
